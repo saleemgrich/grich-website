@@ -1,7 +1,13 @@
 // src/pages/_app.tsx
 import type { AppProps } from 'next/app'
-import '../styles/global.css' // Optional: only if you make one
+import Header from '@/components/Header'
+import '../styles/global.css'
 
 export default function MyApp({ Component, pageProps }: AppProps) {
-    return <Component {...pageProps} />
+    return (
+        <>
+            <Header />
+            <Component {...pageProps} />
+        </>
+    )
 }
