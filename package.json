@@ -1,0 +1,27 @@
+{
+  "name": "grich-website",
+  "version": "1.0.0",
+  "description": "Website for Grich",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saleemgrich/grich-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saleemgrich/grich-website/issues"
+  },
+  "homepage": "https://github.com/saleemgrich/grich-website#readme",
+  "dependencies": {
+    "next": "^15.2.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
