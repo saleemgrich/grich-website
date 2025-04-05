@@ -1,49 +1,67 @@
 /* src/styles/global.css */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f7f7f7;
-  color: #333;
-  line-height: 1.6;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #222;
 }
 
 header {
-  background: #111;
-  color: white;
-  padding: 1rem 2rem;
+  width: 100%;
 }
 
-nav {
+.top-bar {
+  background-color: #1e40af; /* blue-700 */
+  color: white;
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
-nav a {
+.social-links a {
   color: white;
-  margin-left: 1rem;
   text-decoration: none;
-  font-weight: bold;
+  margin-right: 1rem;
 }
 
-nav a:hover {
+.social-links a:hover {
   text-decoration: underline;
+  color: #e2e8f0; /* light hover */
 }
 
-main {
-  padding: 2rem;
+.schedule-button {
+  background-color: white;
+  color: #1e40af;
+  font-weight: 500;
+  padding: 0.25rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-footer {
-  background: #222;
-  color: white;
-  padding: 1rem 2rem;
-  text-align: center;
-  margin-top: 4rem;
+.schedule-button:hover {
+  background-color: #f3f4f6;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #1e293b;
+}
+
+nav ul a:hover {
+  text-decoration: underline;
 }

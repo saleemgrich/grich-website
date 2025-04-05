@@ -5,10 +5,10 @@ export default function Navigation() {
     return (
         <header>
             {/* Main nav */}
-            <nav className="bg-white shadow p-4">
-                <div className="container mx-auto flex justify-between items-center">
-                    <h1 className="text-2xl font-bold">Dad's Construction</h1>
-                    <ul className="flex space-x-6">
+            <nav className="main-nav">
+                <div className="container">
+                    <h1 className="site-title">Dad's Construction</h1>
+                    <ul className="nav-links">
                         <li><Link href="/">Home</Link></li>
                         <li><Link href="/services">Services</Link></li>
                         <li><Link href="/projects">Projects</Link></li>
