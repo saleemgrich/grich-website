@@ -6,8 +6,7 @@ export default function Navigation() {
         <header>
             {/* Main nav */}
             <nav className="main-nav">
-                <div className="container">
-                    <h1 className="site-title">Dad's Construction</h1>
+                <div className="nav-container">
                     <ul className="nav-links">
                         <li><Link href="/">Home</Link></li>
                         <li><Link href="/services">Services</Link></li>

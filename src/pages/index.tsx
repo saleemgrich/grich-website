@@ -3,18 +3,6 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50 text-gray-900">
-      <header className="bg-white shadow p-4">
-        <nav className="container mx-auto flex justify-between items-center">
-          <h1 className="text-2xl font-bold">Dad's Construction</h1>
-          <ul className="flex space-x-6">
-            <li><Link href="/">Home</Link></li>
-            <li><Link href="/services">Services</Link></li>
-            <li><Link href="/projects">Projects</Link></li>
-            <li><Link href="/contact">Contact</Link></li>
-          </ul>
-        </nav>
-      </header>
-
       <section className="bg-[url('/hero.jpg')] bg-cover bg-center h-[70vh] flex items-center justify-center">
         <div className="bg-black bg-opacity-50 p-8 rounded-xl text-white text-center">
           <h2 className="text-4xl font-bold mb-4">Building With Integrity</h2>

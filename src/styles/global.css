@@ -49,6 +49,39 @@ header {
   background-color: #f3f4f6;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.nav-container {
+  max-width: 66%;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.center-logo {
+  max-width: 200px;
+  height: auto;
+}
+
 nav ul {
   list-style: none;
   padding: 0;
