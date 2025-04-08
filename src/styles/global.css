@@ -98,7 +98,7 @@ nav ul a {
 nav ul a:hover {
   text-decoration: underline;
 }
-
+//nav bar formatting
 .nav-links a {
   font-size: 1.125rem; /* 18px */
   color: #1e3a8a; /* dark blue */
@@ -114,4 +114,17 @@ nav ul a:hover {
   font-size: 1.5rem;
   font-weight: 700;
   color: #1e3a8a;
+}
+// nav bar active page
+.active-link {
+  color: #1d4ed8; /* Brighter blue */
+  font-weight: 700;
+  border-bottom: 2px solid #1d4ed8;
+  padding-bottom: 2px;
+}
+// image wrapper
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 200px; /* or 30vh or whatever works for your layout */
 }
