@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   background-color: #f8f8f8;
   color: #222;
 }
@@ -97,4 +97,21 @@ nav ul a {
 
 nav ul a:hover {
   text-decoration: underline;
+}
+
+.nav-links a {
+  font-size: 1.125rem; /* 18px */
+  color: #1e3a8a; /* dark blue */
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  color: #1d4ed8; /* brighter hover */
+}
+
+.site-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1e3a8a;
 }
