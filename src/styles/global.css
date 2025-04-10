@@ -79,20 +79,6 @@ header {
   list-style: none; /* Remove list bullets */
 }
 
-/* Logo container styles */
-.logo-container {
-  display: flex;
-  justify-content: center; /* Center logo */
-  align-items: center; /* Vertically center logo */
-  padding: 1rem 0; /* Padding for spacing */
-}
-
-/* Logo image size restrictions */
-.center-logo {
-  max-width: 50%; /* Limit logo width to 50% of the screen width */
-  height: auto; /* Maintain aspect ratio */
-}
-
 /* Navigation link styling */
 nav ul {
   list-style: none; /* Remove list bullets */
@@ -139,5 +125,23 @@ nav ul a {
 .image-wrapper {
   position: relative;
   width: 100%; /* Full width of container */
-  height: 200px; /* Fixed height, adjust as needed */
+  padding-top: 25%; /* Maintain a 4:1 aspect ratio for the wrapper (height: width) */
+  overflow: hidden; /* Ensure the image doesn't overflow */
+}
+
+/* Logo container styles */
+.logo-container {
+  display: flex;
+  justify-content: center; /* Center logo */
+  align-items: center; /* Vertically center logo */
+  padding: 1rem 0; /* Padding for spacing */
+  width: 100%; /* Ensure the container takes up the full width */
+}
+
+/* Logo image size restrictions */
+.center-logo {
+  width: 100%; /* Ensure the image can scale with container */
+  max-width: 50%; /* Limit logo width to 20% of the screen width */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* This ensures the image scales proportionally */
 }
