@@ -91,6 +91,7 @@ header {
 .center-logo {
   max-width: 50%; /* Limit logo width to 50% of the screen width */
   height: auto; /* Maintain aspect ratio */
+}
 
 /* Navigation link styling */
 nav ul {
