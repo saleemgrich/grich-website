@@ -89,9 +89,8 @@ header {
 
 /* Logo image size restrictions */
 .center-logo {
-  max-width: 250px; /* Limit logo width */
+  max-width: 50%; /* Limit logo width to 50% of the screen width */
   height: auto; /* Maintain aspect ratio */
-}
 
 /* Navigation link styling */
 nav ul {
