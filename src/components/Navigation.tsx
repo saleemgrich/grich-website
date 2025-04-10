@@ -8,7 +8,7 @@ export default function Navigation() {
     return (
         <header>
             <nav className="main-nav">
-                <div className="container">
+                <div className="nav-container">
                     <ul className="nav-links">
                         <li>
                             <Link
