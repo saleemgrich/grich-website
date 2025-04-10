@@ -1,130 +1,150 @@
 /* src/styles/global.css */
 
+/* General body styling */
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
-  background-color: #f8f8f8;
-  color: #222;
+  font-family: 'Inter', sans-serif; /* Font style */
+  background-color: #f8f8f8; /* Light background color */
+  color: #222; /* Dark text color */
 }
 
+/* Header container styles */
 header {
   width: 100%;
 }
 
+/* Top bar styling, typically used for social links and buttons */
 .top-bar {
   background-color: #1e40af; /* blue-700 */
   color: white;
-  font-size: 0.875rem;
-  padding: 0.5rem 1rem;
+  font-size: 0.875rem; /* Smaller font size */
+  padding: 0.5rem 1rem; /* Padding for spacing */
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 0.5rem;
+  justify-content: space-between; /* Space items evenly */
+  align-items: center; /* Center align items vertically */
+  flex-wrap: wrap; /* Wrap items when necessary */
+  gap: 0.5rem; /* Gap between items */
 }
 
+/* Social media links in the top bar */
 .social-links a {
-  color: white;
-  text-decoration: none;
-  margin-right: 1rem;
+  color: white; /* White color for social media links */
+  text-decoration: none; /* Remove underline */
+  margin-right: 1rem; /* Space between icons */
 }
 
+/* Hover effect for social media links */
 .social-links a:hover {
-  text-decoration: underline;
-  color: #e2e8f0; /* light hover */
+  text-decoration: underline; /* Underline text on hover */
+  color: #e2e8f0; /* Light color on hover */
 }
 
+/* Button for scheduling consultation */
 .schedule-button {
   background-color: white;
-  color: #1e40af;
-  font-weight: 500;
-  padding: 0.25rem 1rem;
-  border-radius: 0.25rem;
-  border: none;
-  cursor: pointer;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  color: #1e40af; /* Blue text */
+  font-weight: 500; /* Medium font weight */
+  padding: 0.25rem 1rem; /* Padding for button */
+  border-radius: 0.25rem; /* Rounded corners */
+  border: none; /* Remove border */
+  cursor: pointer; /* Pointer cursor on hover */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Light shadow effect */
 }
 
+/* Hover effect for the schedule button */
 .schedule-button:hover {
-  background-color: #f3f4f6;
+  background-color: #f3f4f6; /* Light gray on hover */
 }
 
+/* Container that holds content with max-width and padding */
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
+  max-width: 1200px; /* Limit the width to 1200px */
+  margin: 0 auto; /* Center container */
+  padding: 0 1rem; /* Padding for inner content */
 }
 
+/* Navigation container that holds the nav links */
 .nav-container {
-  max-width: 66%;
-  margin: 0 auto;
-  padding: 1rem 0;
+  max-width: 66%; /* Limit the width to 66% */
+  margin: 0 auto; /* Center content */
+  padding: 1rem 0; /* Padding around the nav */
 }
 
+/* Navigation links styling */
 .nav-links {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0;
-  margin: 0;
-  list-style: none;
+  justify-content: space-between; /* Space items evenly */
+  align-items: center; /* Center align items vertically */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  list-style: none; /* Remove list bullets */
 }
 
+/* Logo container styles */
 .logo-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem 0;
+  justify-content: center; /* Center logo */
+  align-items: center; /* Vertically center logo */
+  padding: 1rem 0; /* Padding for spacing */
 }
 
+/* Logo image size restrictions */
 .center-logo {
-  max-width: 200px;
-  height: auto;
+  max-width: 200px; /* Limit logo width */
+  height: auto; /* Maintain aspect ratio */
 }
 
+/* Navigation link styling */
 nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  gap: 1.5rem;
+  list-style: none; /* Remove list bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  display: flex; /* Flexbox for links */
+  gap: 1.5rem; /* Space links apart */
 }
 
+/* Link styling within navigation */
 nav ul a {
-  text-decoration: none;
-  color: #1e293b;
+  text-decoration: none; /* Remove underline */
+  color: #1e293b; /* Dark text color */
 }
 
+/* Hover effect for navigation links */
 nav ul a:hover {
-  text-decoration: underline;
+  text-decoration: underline; /* Underline text on hover */
 }
-//nav bar formatting
+
+/* Styling for navigation links specifically */
 .nav-links a {
-  font-size: 1.125rem; /* 18px */
-  color: #1e3a8a; /* dark blue */
-  font-weight: 500;
+  font-size: 1.125rem; /* Larger font size for nav links */
+  color: #1e3a8a; /* Dark blue color */
+  font-weight: 500; /* Medium font weight */
 }
 
+/* Hover effect for nav links */
 .nav-links a:hover {
-  text-decoration: underline;
-  color: #1d4ed8; /* brighter hover */
+  text-decoration: underline; /* Underline on hover */
+  color: #1d4ed8; /* Brighter blue on hover */
 }
 
+/* Site title styling */
 .site-title {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #1e3a8a;
+  font-size: 1.5rem; /* Larger font size for title */
+  font-weight: 700; /* Bold font weight */
+  color: #1e3a8a; /* Dark blue color */
 }
-// nav bar active page
+
+/* Active page link in the navigation */
 .active-link {
-  color: #1d4ed8; /* Brighter blue */
-  font-weight: 700;
-  border-bottom: 2px solid #1d4ed8;
-  padding-bottom: 2px;
+  color: #1d4ed8; /* Brighter blue for active link */
+  font-weight: 700; /* Bold font weight for active link */
+  border-bottom: 2px solid #1d4ed8; /* Underline active link */
+  padding-bottom: 2px; /* Padding below the link for better spacing */
 }
-// image wrapper
+
+/* Wrapper for images, allows flexible height and positioning */
 .image-wrapper {
   position: relative;
-  width: 100%;
-  height: 200px; /* or 30vh or whatever works for your layout */
+  width: 100%; /* Full width of container */
+  height: 200px; /* Fixed height, adjust as needed */
 }
