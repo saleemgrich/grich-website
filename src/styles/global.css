@@ -124,8 +124,8 @@ nav ul a {
 /* Wrapper for images, allows flexible height and positioning */
 .image-wrapper {
   position: relative;
-  width: 55%;  /* 55% width of container */
-  padding-top: 5%; /* Maintain a 4:1 aspect ratio for the wrapper (height: width) */
+  width: 100%;  /* 100% width of container */
+  padding-top: 20%; /* Maintain a 4:1 aspect ratio for the wrapper (height: width) */
   overflow: hidden; /* Ensure the image doesn't overflow */
   display: flex;
   justify-content: center; /* Center the image horizontally */
