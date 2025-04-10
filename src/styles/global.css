@@ -35,8 +35,7 @@ header {
 
 /* Hover effect for social media links */
 .social-links a:hover {
-  text-decoration: underline; /* Underline text on hover */
-  color: #e2e8f0; /* Light color on hover */
+  background-color: #1e3a8a; /* Light color on hover */
 }
 
 /* Button for scheduling consultation */
@@ -65,7 +64,7 @@ header {
 
 /* Navigation container that holds the nav links */
 .nav-container {
-  max-width: 66%; /* Limit the width to 66% */
+  max-width: 50%; /* Limit the width to 66% */
   margin: 0 auto; /* Center content */
   padding: 1rem 0; /* Padding around the nav */
 }
@@ -111,12 +110,12 @@ nav ul a {
 
 /* Hover effect for navigation links */
 nav ul a:hover {
-  text-decoration: underline; /* Underline text on hover */
+ 
 }
 
 /* Styling for navigation links specifically */
 .nav-links a {
-  font-size: 1.125rem; /* Larger font size for nav links */
+  font-size: 1.5rem; /* Larger font size for nav links */
   color: #1e3a8a; /* Dark blue color */
   font-weight: 500; /* Medium font weight */
 }
