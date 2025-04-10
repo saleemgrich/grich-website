@@ -64,7 +64,7 @@ header {
 
 /* Navigation container that holds the nav links */
 .nav-container {
-  max-width: 50%; /* Limit the width to 66% */
+  max-width: 45%; /* Limit the width to 66% */
   margin: 0 auto; /* Center content */
   padding: 1rem 0; /* Padding around the nav */
 }
@@ -89,7 +89,7 @@ header {
 
 /* Logo image size restrictions */
 .center-logo {
-  max-width: 200px; /* Limit logo width */
+  max-width: 250px; /* Limit logo width */
   height: auto; /* Maintain aspect ratio */
 }
 
